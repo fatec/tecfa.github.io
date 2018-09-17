@@ -30,3 +30,23 @@ if (document.querySelectorAll("#main-tecfa-nav-links")) {
         }
     }
 }
+
+/**
+ * Breadcrumbs for perso pages
+ */
+
+if (currentURL.includes("/perso/")) {
+    var pageLang = document.querySelector("html").lang;
+    breadcrumbsElement = document.querySelector("#breadcrumbs");
+
+    //Highlight the second element (index = 1) of the main nav
+    mainLinks[1].classList.add("active");
+
+    if (pageLang == "fr") {
+        let breadcrumbs = '<a href="/fr/">TECFA</a> &raquo; <a href="/fr/membres">Membres</a> &raquo;</a>';
+        breadcrumbsElement.innerHTML = breadcrumbs;
+    } else {
+        let breadcrumbs = '<a href="/en/">TECFA</a> &raquo; <a href="/fr/people">People</a> &raquo;</a>';
+        breadcrumbsElement.innerHTML = breadcrumbs;
+    }
+}
