@@ -43,10 +43,10 @@ if (currentURL.includes("/perso/")) {
     mainLinks[1].classList.add("active");
 
     if (pageLang == "fr") {
-        let breadcrumbs = '<a href="/fr/">TECFA</a> &raquo; <a href="/fr/membres">Membres</a> &raquo;</a>';
+        let breadcrumbs = '<a href="/fr/">TECFA</a> &raquo; <a href="/fr/membres">Membres</a> &raquo; Page personelle</a>';
         breadcrumbsElement.innerHTML = breadcrumbs;
     } else {
-        let breadcrumbs = '<a href="/en/">TECFA</a> &raquo; <a href="/fr/people">People</a> &raquo;</a>';
+        let breadcrumbs = '<a href="/en/">TECFA</a> &raquo; <a href="/fr/people">People</a> &raquo; Personal page</a>';
         breadcrumbsElement.innerHTML = breadcrumbs;
     }
 }
