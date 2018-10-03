@@ -83,16 +83,16 @@
     <main>
         <div class="container">
             <!-- Carousel -->
-            <div id="carouselExampleIndicators" class="carousel slide mt-2 mb-4" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide mt-2 mb-4 d-none d-md-block" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner">
+                <div class="carousel-inner" style="max-height:400px; overflow: hidden;">
                     <!-- First image -->
-                    <div class="carousel-item active" style="height:400px">
+                    <div class="carousel-item active">
                         <a href="/fr/membres/">
                             <img class="d-block w-100 h-100" src="/assets/images/tecfa-people.jpg" alt="Members">
                             <div class="carousel-caption d-none d-md-block pb-4">
@@ -102,7 +102,7 @@
                         </a>
                     </div>
                     <!-- Second image -->
-                    <div class="carousel-item" style="height:400px">
+                    <div class="carousel-item">
                         <a href="/fr/recherche/">
                             <img class="d-block w-100 h-100" src="/assets/images/carousel/carousel-research.jpg" alt="Recherche">
                             <div class="carousel-caption d-none d-md-block pb-4">
@@ -112,9 +112,9 @@
                         </a>
                     </div>
                     <!-- Third image -->
-                    <div class="carousel-item" style="height:400px">
+                    <div class="carousel-item">
                         <a href="/fr/enseignements/">
-                            <img class="d-block w-100 h-100" src="/assets/images/carousel/image1.jpg" alt="Enseignements">
+                            <img class="d-block w-100 h-100" src="/assets/images/carousel/enseignements.jpg" alt="Enseignements">
                             <div class="carousel-caption d-none d-md-block pb-4">
                                 <p class="lead">TECFA propose des enseignements au niveau bachelor, master et formation
                                     continue.</p>
@@ -132,10 +132,11 @@
                 </a>
             </div>
             <!-- End of Carousel-->
+            <h1 class="mb-4">Accueil</h1>
             <div class="row mt-3">
-                <div class="col-sm-8 lead">
-                    <h3 class="mb-4">Accueil</h3>
-                    <p class="lead bg-tecfa-primary text-white p-3">TECFA est une unité académique active au sein des
+                <div class="col-md-6 lead">
+                    <p class="lead bg-tecfa-primary text-white p-3">TECFA est une unité académique active au
+                        sein des
                         technologies
                         éducatives depuis 1989. Elle
                         appartient à la
@@ -151,8 +152,8 @@
                     <p>Des <a href="./tecfa-cite/">outils, événements et services</a> sont proposés régulièrement et
                         s’adressent à tous les publics.</p>
                 </div>
-                <div class="col-sm-4">
-                    <a class="twitter-timeline" data-height="500" data-theme="light" href="https://twitter.com/tecfa?ref_src=twsrc%5Etfw">Tweets
+                <div class="col-md-6 border border-tecfa-primary p-3">
+                    <a class="twitter-timeline" data-height="600" data-theme="light" href="https://twitter.com/tecfa?ref_src=twsrc%5Etfw">Tweets
                         by tecfa</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
