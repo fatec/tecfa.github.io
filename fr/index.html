@@ -1,331 +1,238 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- TITRE À CHANGER POUR CHAQUE PAGE - notation : "Le titre" | TECFA -->
-    <title>
-      TECFA - Technologies pour la Formation et l'Apprentissage. Université de
-      Genève
-    </title>
-    <!-- Bootstrap TECFA theme CSS -->
-    <link
-      rel="stylesheet"
-      href="https://tecfa.github.io/tecfa-website-css/dist/css/tecfa.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-      crossorigin="anonymous"
-    />
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  </head>
 
-  <body>
-    <!-- HEADER -->
-    <header>
-      <nav
-        class="navbar navbar-expand-md navbar-dark bg-tecfa-primary fixed-top"
-        id="main-tecfa-nav"
-      >
-        <div class="container">
-          <a class="navbar-brand" href="/fr/">
-            <img src="/assets/images/tecfa-logo.svg" style="height:50px" />
-          </a>
-          <button
-            class="navbar-toggler hidden-lg-up"
-            type="button"
-            data-toggle="collapse"
-            data-target="#main-tecfa-nav-links"
-            aria-controls="main-tecfa-nav-links"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="main-tecfa-nav-links">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item px-2">
-                <a class="nav-link" href="/fr/">Accueil</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link" href="/fr/membres/">Membres</a>
-              </li>
-              <li class="nav-item px-2">
-                <a href="/fr/recherche/" class="nav-link">Recherche</a>
-              </li>
-              <li class="nav-item px-2">
-                <a href="/fr/enseignements/" class="nav-link">Enseignements</a>
-              </li>
-              <li class="nav-item pl-2">
-                <a href="/fr/tecfa-cite/" class="nav-link pr-0">TECFA & Cité</a>
-              </li>
-            </ul>
-          </div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- TITRE À CHANGER POUR CHAQUE PAGE - notation : "Le titre" | TECFA -->
+  <title>
+    TECFA - Technologies pour la Formation et l'Apprentissage. Université de
+    Genève
+  </title>
+  <!-- Bootstrap TECFA theme CSS -->
+  <link rel="stylesheet" href="https://tecfa.unige.ch/assets-global/css/tecfa.css" />
+  <link rel="stylesheet" href="https://tecfa.unige.ch/assets-global/css/fontawesome/css/all.css">
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-tecfa-primary fixed-top" id="main-tecfa-nav">
+      <div class="container">
+        <a class="navbar-brand" href="/fr/">
+          <img src="https://tecfa.unige.ch/assets-global/logos/tecfa_logo_navbar.svg" style="height:50px" />
+        </a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse"
+          data-target="#main-tecfa-nav-links" aria-controls="main-tecfa-nav-links" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-tecfa-nav-links">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-2">
+              <a class="nav-link" href="/fr/">Accueil</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="/fr/membres/">Membres</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="/fr/recherche/" class="nav-link">Recherche</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="/fr/enseignements/" class="nav-link">Enseignements</a>
+            </li>
+            <li class="nav-item pl-2">
+              <a href="/fr/tecfa-cite/" class="nav-link pr-0">TECFA & Cité</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
-
-    <!-- Breadcrumbs + Language + Search -->
-    <div class="container">
-      <div id="utility-bar" class="d-flex">
-        <div id="breadcrumbs" class="mr-auto"></div>
-        <div id="search" class="mr-3"><i class="fa fa-search"></i></div>
-        <div id="language-switch">FR | <a href="/en/">EN</a></div>
       </div>
+    </nav>
+  </header>
+
+  <!-- Breadcrumbs + Language + Search -->
+  <div class="container">
+    <div id="utility-bar" class="d-flex">
+      <div id="breadcrumbs" class="mr-auto"></div>
+      <div id="search" class="mr-3"><i class="fa fa-search"></i></div>
+      <div id="language-switch">FR | <a href="/en/">EN</a></div>
     </div>
-    <!-- END OF THE HEADER -->
+  </div>
+  <!-- END OF THE HEADER -->
 
-    <!-- MAIN -->
-    <main>
-      <div class="container">
-        <!-- Carousel -->
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide mt-2 mb-4 d-none d-md-block"
-          data-ride="carousel"
-        >
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          </ol>
-          <div
-            class="carousel-inner"
-            style="max-height:400px; overflow: hidden;"
-          >
-            <!-- First image -->
-            <div class="carousel-item active">
-              <a href="/fr/membres/">
-                <img
-                  class="d-block w-100 h-100"
-                  src="/assets/images/tecfa-people.jpg"
-                  alt="Membres"
-                  title="Membres"
-                />
-                <div class="carousel-caption d-none d-md-block pb-4">
-                  <p class="lead">
-                    Découvrez les membres de TECFA et leurs domaines d'activité
-                    et de recherche.
-                  </p>
-                </div>
-              </a>
-            </div>
-            <!-- Second image -->
-            <div class="carousel-item">
-              <a href="/fr/recherche/">
-                <img
-                  class="d-block w-100 h-100"
-                  src="/assets/images/carousel/carousel-research.jpg"
-                  alt="Recherche"
-                  title="Recherche"
-                />
-                <div class="carousel-caption d-none d-md-block pb-4">
-                  <p class="lead">
-                    TECFA mène et participe à des projets de recherche inter- et
-                    multi-disciplinaires.
-                  </p>
-                </div>
-              </a>
-            </div>
-            <!-- Third image -->
-            <div class="carousel-item">
-              <a href="/fr/enseignements/">
-                <img
-                  class="d-block w-100 h-100"
-                  src="/assets/images/carousel/enseignements.jpg"
-                  alt="Enseignements"
-                  title="Enseignements"
-                />
-                <div class="carousel-caption d-none d-md-block pb-4">
-                  <p class="lead">
-                    TECFA propose des enseignements au niveau bachelor, master
-                    et formation continue.
-                  </p>
-                </div>
-              </a>
-            </div>
-            <!-- Fourth image -->
-            <div class="carousel-item">
-              <a href="/fr/tecfa-cite/">
-                <img
-                  class="d-block w-100 h-100"
-                  src="/assets/images/carousel/carousel-tecfa-cite.jpg"
-                  alt="TECFA&Cité"
-                  title="TECFA&Cité"
-                />
-                <div class="carousel-caption d-none d-md-block pb-4">
-                  <p class="lead">
-                    TECFA partage son expertise dans le domaine des technologies
-                    de la formation et de l'apprentissage.
-                  </p>
-                </div>
-              </a>
-            </div>
+  <!-- MAIN -->
+  <main>
+    <div class="container">
+      <!-- Carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide mt-2 mb-4 d-none d-md-block" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" style="max-height:400px; overflow: hidden;">
+          <!-- First image -->
+          <div class="carousel-item active">
+            <a href="/fr/membres/">
+              <img class="d-block w-100 h-100" src="/assets/images/tecfa-people.jpg" alt="Membres" title="Membres" />
+              <div class="carousel-caption d-none d-md-block pb-4">
+                <p class="lead">
+                  Découvrez les membres de TECFA et leurs domaines d'activité
+                  et de recherche.
+                </p>
+              </div>
+            </a>
           </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-        <!-- End of Carousel -->
-        <hgroup class="mb-4">
-          <h1>Bienvenue à TECFA</h1>
-          <h5>Technologies de Formation et Apprentissage</h5>
-        </hgroup>
-        <div class="row mt-3">
-          <div class="col-md-6 lead">
-            <p class="lead bg-tecfa-primary text-white p-3">
-              TECFA est une unité académique active dans le domaine des
-              technologies éducatives depuis 1989. Elle appartient à la Faculté
-              de Psychologie et des Sciences de l'Éducation (<a
-                href="https://www.unige.ch/fapse/"
-                >FPSE</a
-              >) de l'Université de Genève et est dirigée par Mireille
-              Bétrancourt.
-            </p>
-            <p>
-              La <a href="./recherche/">recherche</a> à TECFA couvre un large
-              champ d'investigation incluant notamment les implications
-              cognitives, sociales et affectives liées aux nouvelles
-              technologies de l'information et de la communication.
-            </p>
-            <p>
-              TECFA propose des
-              <a href="./enseignements/">enseignements</a> dans le domaine des
-              technologies éducatives, tels que le
-              <i>Master of Sciences in Learning and Teaching Technologies</i>
-              (<a href="http://tecfalabs.unige.ch/maltt">MALTT</a>), une
-              formation continue en conception et développement de projets
-              e-learning, ainsi que des cours de bachelor. Des
-              <a href="./enseignements/"
-                >plateformes et ressources pédagogiques</a
-              >
-              sont également développées ou maintenues par TECFA.
-            </p>
-            <p>
-              En outre, TECFA propose des
-              <a href="./tecfa-cite/">services, événements et portails</a> qui
-              s’adressent à tout public.
-            </p>
+          <!-- Second image -->
+          <div class="carousel-item">
+            <a href="/fr/recherche/">
+              <img class="d-block w-100 h-100" src="/assets/images/carousel/carousel-research.jpg" alt="Recherche"
+                title="Recherche" />
+              <div class="carousel-caption d-none d-md-block pb-4">
+                <p class="lead">
+                  TECFA mène et participe à des projets de recherche inter- et
+                  multi-disciplinaires.
+                </p>
+              </div>
+            </a>
           </div>
-          <div class="col-md-6">
-            <div class="border border-tecfa-primary p-0">
-              <a
-                class="twitter-timeline"
-                data-height="600"
-                data-theme="light"
-                href="https://twitter.com/tecfa?ref_src=twsrc%5Etfw"
-                >Tweets by tecfa</a
-              >
-              <script
-                async
-                src="https://platform.twitter.com/widgets.js"
-                charset="utf-8"
-              ></script>
-            </div>
+          <!-- Third image -->
+          <div class="carousel-item">
+            <a href="/fr/enseignements/">
+              <img class="d-block w-100 h-100" src="/assets/images/carousel/enseignements.jpg" alt="Enseignements"
+                title="Enseignements" />
+              <div class="carousel-caption d-none d-md-block pb-4">
+                <p class="lead">
+                  TECFA propose des enseignements au niveau bachelor, master
+                  et formation continue.
+                </p>
+              </div>
+            </a>
           </div>
-        </div>
-      </div>
-    </main>
-    <!-- END OF MAIN -->
-
-    <!-- FOOTER -->
-    <footer class="bg-dark text-white p-5 mt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h5 class="text-white text-uppercase">Nous contacter</h5>
-            <span class="text-white-50"
-              >40 bd du Pont d'Arve<br />1211 Genève 4<br />T. +41 (0)22 379 93
-              20</span
-            ><br />
-            <a
-              class=""
-              href="https://www.unige.ch/presse/plans/uni-mail-uni-pignon/"
-              >Plan d'accès</a
-            >
-          </div>
-          <div class="col-sm">
-            <h5 class="text-white text-uppercase">Liens</h5>
-            <a class="" href="http://tecfalms.unige.ch/moodle/">Moodle TECFA</a
-            ><br />
-            <a class="" href="http://edutechwiki.unige.ch/fr/Accueil"
-              >EduTechWiki</a
-            ><br />
-            <a class="" href="http://tecfa.unige.ch/intranet">Intranet</a>
-          </div>
-          <div class="col-sm">
-            <h5 class="text-white text-uppercase">Médias sociaux</h5>
-            <ul class="list-unstyled list-inline media-links">
-              <li class="list-inline-item">
-                <a href="https://www.twitter.com/tecfa">
-                  <i class="fab fa-2x fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.researchgate.net/lab/TECFA-Unite-TECFA">
-                  <i class="fab fa-2x fa-researchgate fa-fw"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm">
-            <a href="https://www.unige.ch/fapse/">
-              <img
-                class="img-fluid"
-                src="/assets/images/fapse-logo-white.svg"
-              />
+          <!-- Fourth image -->
+          <div class="carousel-item">
+            <a href="/fr/tecfa-cite/">
+              <img class="d-block w-100 h-100" src="/assets/images/carousel/carousel-tecfa-cite.jpg" alt="TECFA&Cité"
+                title="TECFA&Cité" />
+              <div class="carousel-caption d-none d-md-block pb-4">
+                <p class="lead">
+                  TECFA partage son expertise dans le domaine des technologies
+                  de la formation et de l'apprentissage.
+                </p>
+              </div>
             </a>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-    </footer>
-    <!-- END OF FOOTER -->
+      <!-- End of Carousel -->
+      <hgroup class="mb-4">
+        <h1>Bienvenue à TECFA</h1>
+        <h5>Technologies de Formation et Apprentissage</h5>
+      </hgroup>
+      <div class="row mt-3">
+        <div class="col-md-6 lead">
+          <p class="lead bg-tecfa-primary text-white p-3">
+            TECFA est une unité académique active dans le domaine des
+            technologies éducatives depuis 1989. Elle appartient à la Faculté
+            de Psychologie et des Sciences de l'Éducation (<a href="https://www.unige.ch/fapse/">FPSE</a>) de
+            l'Université de Genève et est dirigée par Mireille
+            Bétrancourt.
+          </p>
+          <p>
+            La <a href="./recherche/">recherche</a> à TECFA couvre un large
+            champ d'investigation incluant notamment les implications
+            cognitives, sociales et affectives liées aux nouvelles
+            technologies de l'information et de la communication.
+          </p>
+          <p>
+            TECFA propose des
+            <a href="./enseignements/">enseignements</a> dans le domaine des
+            technologies éducatives, tels que le
+            <i>Master of Sciences in Learning and Teaching Technologies</i>
+            (<a href="http://tecfalabs.unige.ch/maltt">MALTT</a>), une
+            formation continue en conception et développement de projets
+            e-learning, ainsi que des cours de bachelor. Des
+            <a href="./enseignements/">plateformes et ressources pédagogiques</a>
+            sont également développées ou maintenues par TECFA.
+          </p>
+          <p>
+            En outre, TECFA propose des
+            <a href="./tecfa-cite/">services, événements et portails</a> qui
+            s’adressent à tout public.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div class="border border-tecfa-primary p-0">
+            <a class="twitter-timeline" data-height="600" data-theme="light"
+              href="https://twitter.com/tecfa?ref_src=twsrc%5Etfw">Tweets by tecfa</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- END OF MAIN -->
 
-    <!-- REQUIRED JS FILES -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="/assets/js/app.js"></script>
-    <!-- END OF REQUIRED JS FILES -->
-  </body>
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white p-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h5 class="text-white text-uppercase">Nous contacter</h5>
+          <span class="text-white-50">40 bd du Pont d'Arve<br />1211 Genève 4<br />T. +41 (0)22 379 93
+            20</span><br />
+          <a class="" href="https://www.unige.ch/presse/plans/uni-mail-uni-pignon/">Plan d'accès</a>
+        </div>
+        <div class="col-sm">
+          <h5 class="text-white text-uppercase">Liens</h5>
+          <a class="" href="http://tecfalms.unige.ch/moodle/">Moodle TECFA</a><br />
+          <a class="" href="http://edutechwiki.unige.ch/fr/Accueil">EduTechWiki</a><br />
+          <a class="" href="http://tecfa.unige.ch/intranet">Intranet</a>
+        </div>
+        <div class="col-sm">
+          <h5 class="text-white text-uppercase">Médias sociaux</h5>
+          <ul class="list-unstyled list-inline media-links">
+            <li class="list-inline-item">
+              <a href="https://www.twitter.com/tecfa">
+                <i class="fab fa-2x fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.researchgate.net/lab/TECFA-Unite-TECFA">
+                <i class="fab fa-2x fa-researchgate fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <a href="https://www.unige.ch/fapse/">
+            <img class="img-fluid" src="https://tecfa.unige.ch/assets-global/logos/fapse_white_logo.svg" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END OF FOOTER -->
+
+  <!-- REQUIRED JS FILES -->
+  <script src="https://tecfa.unige.ch/assets-global/js/jquery.slim.min.js"></script>
+  <script src="https://tecfa.unige.ch/assets-global/js/popper.min.js"></script>
+  <script src="https://tecfa.unige.ch/assets-global/js/bootstrap.min.js"></script>
+  <script src="/assets-site/js/app.js"></script>
+  <!-- END OF REQUIRED JS FILES -->
+</body>
+
 </html>

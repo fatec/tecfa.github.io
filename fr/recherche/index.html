@@ -1,312 +1,259 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- TITRE À CHANGER POUR CHAQUE PAGE - notation : "Le titre" | TECFA -->
-    <title>Recherche | TECFA</title>
-    <!-- Bootstrap TECFA theme CSS -->
-    <link
-      rel="stylesheet"
-      href="https://tecfa.github.io/tecfa-website-css/dist/css/tecfa.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-      crossorigin="anonymous"
-    />
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  </head>
 
-  <body>
-    <!-- HEADER -->
-    <header>
-      <nav
-        class="navbar navbar-expand-md navbar-dark bg-tecfa-primary fixed-top"
-        id="main-tecfa-nav"
-      >
-        <div class="container">
-          <a class="navbar-brand" href="/fr/">
-            <img src="/assets/images/tecfa-logo.svg" style="height:50px" />
-          </a>
-          <button
-            class="navbar-toggler hidden-lg-up"
-            type="button"
-            data-toggle="collapse"
-            data-target="#main-tecfa-nav-links"
-            aria-controls="main-tecfa-nav-links"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="main-tecfa-nav-links">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item px-2">
-                <a class="nav-link" href="/fr/">Accueil</a>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- TITRE À CHANGER POUR CHAQUE PAGE - notation : "Le titre" | TECFA -->
+  <title>Recherche | TECFA</title>
+  <!-- Bootstrap TECFA theme CSS -->
+  <link rel="stylesheet" href="https://tecfa.unige.ch/assets-global/css/tecfa.css" />
+  <link rel="stylesheet" href="https://tecfa.unige.ch/assets-global/css/fontawesome/css/all.css">
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-tecfa-primary fixed-top" id="main-tecfa-nav">
+      <div class="container">
+        <a class="navbar-brand" href="/fr/">
+          <img src="https://tecfa.unige.ch/assets-global/logos/tecfa_logo_navbar.svg" style="height:50px" />
+        </a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse"
+          data-target="#main-tecfa-nav-links" aria-controls="main-tecfa-nav-links" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-tecfa-nav-links">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-2">
+              <a class="nav-link" href="/fr/">Accueil</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="/fr/membres/">Membres</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="/fr/recherche/" class="nav-link">Recherche</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="/fr/enseignements/" class="nav-link">Enseignements</a>
+            </li>
+            <li class="nav-item pl-2">
+              <a href="/fr/tecfa-cite/" class="nav-link pr-0">TECFA & Cité</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Breadcrumbs + Language + Search -->
+  <div class="container">
+    <div id="utility-bar" class="d-flex">
+      <div id="breadcrumbs" class="mr-auto"></div>
+      <div id="search" class="mr-3"><i class="fa fa-search"></i></div>
+      <div id="language-switch">FR | <a href="/en/">EN</a></div>
+    </div>
+  </div>
+  <!-- END OF THE HEADER -->
+
+  <!-- MAIN -->
+  <main>
+    <div class="container">
+      <h1>Recherche</h1>
+      <p class="lead">
+        TECFA mène et contribue à des projets de recherche inter et
+        multidisciplinaires depuis plus de 20 ans. Nous utilisons des
+        approches quantitatives, qualitatives et mixtes, ainsi que différentes
+        techniques de recueil de données.
+      </p>
+      <div class="row mt-4">
+        <div class="col-sm-8">
+          <div class="bg-tecfa-primary p-3 border text-white mb-3">
+            <h2><i class="fas fa-plus-circle"></i> Plus d'informations</h2>
+            <p class="lead">
+              Nos projets de recherches évoluent en fonction des nouvelles
+              technologies et des collaborations avec d'autres unités. Vous
+              trouverez plus d'informations sur les pages personnelles des
+              membres de TECFA.
+            </p>
+            <p class="text-left mb-0">
+              <a class="btn btn-tecfa-orange btn-lg text-white" href="/fr/membres/">
+                <i class="fas fa-chevron-circle-right"></i> Voir la liste des
+                membres
+              </a>
+            </p>
+          </div>
+          <!-- Axes -->
+          <h2>Principaux axes d'investigation</h2>
+          <p>
+            Les technologies de l'apprentissage et de la formation couvrent un
+            large champ d'investigation incluant :
+          </p>
+          <ul class="fa-ul list-unstyled">
+            <li>
+              <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
+              La conception de dispositifs de formation e-learning et de
+              logiciels éducatifs, ainsi que l’étude de leurs impacts sur l'
+              apprentissage ;
+            </li>
+            <li>
+              <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
+              Les usages et pratiques de formation rendus possibles par les
+              nouvelles technologies ;
+            </li>
+            <li>
+              <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
+              L’accompagnement de communautés de pratique en ligne et les
+              démarches participatives en ligne.
+            </li>
+          </ul>
+          <!-- Techniques -->
+          <h2>Techniques et matériaux expérimentaux</h2>
+          <p>
+            Notre unité de recherche utilise souvent les techniques et les
+            matériaux expérimentaux suivants :
+          </p>
+          <ul class="fa-ul list-unstyled">
+            <li>
+              <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
+              Applications et matériel multimédia pour l'apprentissage
+            </li>
+            <li>
+              <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
+              Objets tangibles destinés à l'apprentissage (ex. : imprimantes
+              3D, broderie numérique, découpeuse laser)
+            </li>
+            <li>
+              <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
+              Oculométrie (eye tracking)
+            </li>
+            <li>
+              <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
+              Réalité virtuelle et augmentée
+            </li>
+            <li>
+              <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
+              Mesures neurophysiologiques
+            </li>
+          </ul>
+          <!-- Plateformes -->
+          <h2>Plateformes</h2>
+          <p>
+            Certaines des plateformes et ressources pédagogiques développées
+            ou maintenues par TECFA sont accessibles également à des fins de
+            recherche.
+          </p>
+          <p>
+            <i class="fas fa-link"></i> Voir la section
+            <a href="../enseignements/">Enseignements</a> pour une liste
+            complète.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <!-- Archive ouverte UNIGE -->
+          <div class="p-3 border bg-dark text-white mb-3">
+            <h3><i class="fas fa-lock-open"></i> Archive ouverte</h3>
+            <p>
+              Vous trouverez également une liste de nos publications sur
+              l'Archive ouverte de l'Université de Genève
+            </p>
+            <p class="mb-0">
+              <a class="btn btn-tecfa-orange btn-lg btn-block"
+                href="https://archive-ouverte.unige.ch/structures/view?cn=10516">
+                <i class="fas fa-chevron-circle-right"></i> Archive UNIGE
+              </a>
+            </p>
+          </div>
+          <!-- Researchgate -->
+          <div class="p-3 border border-tecfa-primary mb-3 bg-light">
+            <h3><i class="fab fa-researchgate fa-fw"></i> Researchgate</h3>
+            <p>
+              Retrouvez l'actualité de nos recherches sur Researchgate.
+            </p>
+            <p class="text-center mb-0">
+              <a class="btn btn-outline-tecfa-orange btn-lg btn-block"
+                href="https://www.researchgate.net/lab/TECFA-Unite-TECFA">
+                <i class="fas fa-chevron-circle-right"></i> Profil du groupe
+              </a>
+            </p>
+          </div>
+          <!-- Doctorants et MALTT -->
+          <div class="p-3 border border-tecfa-primary mb-3 bg-light">
+            <h3><i class="fas fa-graduation-cap"></i> Thèses et Mémoires</h3>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-1">
+                Pour les thèses en cours, voir les pages personnelles des
+                doctorants depuis la
+                <a href="/fr/membres/">liste des membres</a>.
               </li>
-              <li class="nav-item px-2">
-                <a class="nav-link" href="/fr/membres/">Membres</a>
+              <li class="mb-1">
+                Pour les thèses achevées, voir l'<a
+                  href="https://archive-ouverte.unige.ch/javascripts/get_bibliography_structure_code?cn=10516">Archive
+                  ouverte de l'Université de Genève</a>.
               </li>
-              <li class="nav-item px-2">
-                <a href="/fr/recherche/" class="nav-link">Recherche</a>
-              </li>
-              <li class="nav-item px-2">
-                <a href="/fr/enseignements/" class="nav-link">Enseignements</a>
-              </li>
-              <li class="nav-item pl-2">
-                <a href="/fr/tecfa-cite/" class="nav-link pr-0">TECFA & Cité</a>
+              <li>
+                Pour les mémoires de maîtrise universitaire, voir le
+                <a href="http://tecfalabs.unige.ch/maltt/alumni/memoires-realises/">site du Master MALTT</a>.
               </li>
             </ul>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <!-- Breadcrumbs + Language + Search -->
-    <div class="container">
-      <div id="utility-bar" class="d-flex">
-        <div id="breadcrumbs" class="mr-auto"></div>
-        <div id="search" class="mr-3"><i class="fa fa-search"></i></div>
-        <div id="language-switch">FR | <a href="/en/">EN</a></div>
       </div>
     </div>
-    <!-- END OF THE HEADER -->
+  </main>
+  <!-- END OF MAIN -->
 
-    <!-- MAIN -->
-    <main>
-      <div class="container">
-        <h1>Recherche</h1>
-        <p class="lead">
-          TECFA mène et contribue à des projets de recherche inter et
-          multidisciplinaires depuis plus de 20 ans. Nous utilisons des
-          approches quantitatives, qualitatives et mixtes, ainsi que différentes
-          techniques de recueil de données.
-        </p>
-        <div class="row mt-4">
-          <div class="col-sm-8">
-            <div class="bg-tecfa-primary p-3 border text-white mb-3">
-              <h2><i class="fas fa-plus-circle"></i> Plus d'informations</h2>
-              <p class="lead">
-                Nos projets de recherches évoluent en fonction des nouvelles
-                technologies et des collaborations avec d'autres unités. Vous
-                trouverez plus d'informations sur les pages personnelles des
-                membres de TECFA.
-              </p>
-              <p class="text-left mb-0">
-                <a
-                  class="btn btn-tecfa-orange btn-lg text-white"
-                  href="/fr/membres/"
-                >
-                  <i class="fas fa-chevron-circle-right"></i> Voir la liste des
-                  membres
-                </a>
-              </p>
-            </div>
-            <!-- Axes -->
-            <h2>Principaux axes d'investigation</h2>
-            <p>
-              Les technologies de l'apprentissage et de la formation couvrent un
-              large champ d'investigation incluant :
-            </p>
-            <ul class="fa-ul list-unstyled">
-              <li>
-                <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
-                La conception de dispositifs de formation e-learning et de
-                logiciels éducatifs, ainsi que l’étude de leurs impacts sur l'
-                apprentissage ;
-              </li>
-              <li>
-                <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
-                Les usages et pratiques de formation rendus possibles par les
-                nouvelles technologies ;
-              </li>
-              <li>
-                <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
-                L’accompagnement de communautés de pratique en ligne et les
-                démarches participatives en ligne.
-              </li>
-            </ul>
-            <!-- Techniques -->
-            <h2>Techniques et matériaux expérimentaux</h2>
-            <p>
-              Notre unité de recherche utilise souvent les techniques et les
-              matériaux expérimentaux suivants :
-            </p>
-            <ul class="fa-ul list-unstyled">
-              <li>
-                <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
-                Applications et matériel multimédia pour l'apprentissage
-              </li>
-              <li>
-                <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
-                Objets tangibles destinés à l'apprentissage (ex. : imprimantes
-                3D, broderie numérique, découpeuse laser)
-              </li>
-              <li>
-                <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
-                Oculométrie (eye tracking)
-              </li>
-              <li>
-                <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
-                Réalité virtuelle et augmentée
-              </li>
-              <li>
-                <span class="fa-li"> <i class="fas fa-caret-right"></i> </span>
-                Mesures neurophysiologiques
-              </li>
-            </ul>
-            <!-- Plateformes -->
-            <h2>Plateformes</h2>
-            <p>
-              Certaines des plateformes et ressources pédagogiques développées
-              ou maintenues par TECFA sont accessibles également à des fins de
-              recherche.
-            </p>
-            <p>
-              <i class="fas fa-link"></i> Voir la section
-              <a href="../enseignements/">Enseignements</a> pour une liste
-              complète.
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <!-- Archive ouverte UNIGE -->
-            <div class="p-3 border bg-dark text-white mb-3">
-              <h3><i class="fas fa-lock-open"></i> Archive ouverte</h3>
-              <p>
-                Vous trouverez également une liste de nos publications sur
-                l'Archive ouverte de l'Université de Genève
-              </p>
-              <p class="mb-0">
-                <a
-                  class="btn btn-tecfa-orange btn-lg btn-block"
-                  href="https://archive-ouverte.unige.ch/structures/view?cn=10516"
-                >
-                  <i class="fas fa-chevron-circle-right"></i> Archive UNIGE
-                </a>
-              </p>
-            </div>
-            <!-- Researchgate -->
-            <div class="p-3 border border-tecfa-primary mb-3 bg-light">
-              <h3><i class="fab fa-researchgate fa-fw"></i> Researchgate</h3>
-              <p>
-                Retrouvez l'actualité de nos recherches sur Researchgate.
-              </p>
-              <p class="text-center mb-0">
-                <a
-                  class="btn btn-outline-tecfa-orange btn-lg btn-block"
-                  href="https://www.researchgate.net/lab/TECFA-Unite-TECFA"
-                >
-                  <i class="fas fa-chevron-circle-right"></i> Profil du groupe
-                </a>
-              </p>
-            </div>
-            <!-- Doctorants et MALTT -->
-            <div class="p-3 border border-tecfa-primary mb-3 bg-light">
-              <h3><i class="fas fa-graduation-cap"></i> Thèses et Mémoires</h3>
-              <ul class="list-unstyled mb-0">
-                <li class="mb-1">
-                  Pour les thèses en cours, voir les pages personnelles des
-                  doctorants depuis la
-                  <a href="/fr/membres/">liste des membres</a>.
-                </li>
-                <li class="mb-1">
-                  Pour les thèses achevées, voir l'<a
-                    href="https://archive-ouverte.unige.ch/javascripts/get_bibliography_structure_code?cn=10516"
-                    >Archive ouverte de l'Université de Genève</a
-                  >.
-                </li>
-                <li>
-                  Pour les mémoires de maîtrise universitaire, voir le
-                  <a
-                    href="http://tecfalabs.unige.ch/maltt/alumni/memoires-realises/"
-                    >site du Master MALTT</a
-                  >.
-                </li>
-              </ul>
-            </div>
-          </div>
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white p-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h5 class="text-white text-uppercase">Nous contacter</h5>
+          <span class="text-white-50">40 bd du Pont d'Arve<br />1211 Genève 4<br />T. +41 (0)22 379 93
+            20</span><br />
+          <a class="" href="https://www.unige.ch/presse/plans/uni-mail-uni-pignon/">Plan d'accès</a>
+        </div>
+        <div class="col-sm">
+          <h5 class="text-white text-uppercase">Liens</h5>
+          <a class="" href="http://tecfalms.unige.ch/moodle/">Moodle TECFA</a><br />
+          <a class="" href="http://edutechwiki.unige.ch/fr/Accueil">EduTechWiki</a><br />
+          <a class="" href="http://tecfa.unige.ch/intranet">Intranet</a>
+        </div>
+        <div class="col-sm">
+          <h5 class="text-white text-uppercase">Médias sociaux</h5>
+          <ul class="list-unstyled list-inline media-links">
+            <li class="list-inline-item">
+              <a href="https://www.twitter.com/tecfa">
+                <i class="fab fa-2x fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.researchgate.net/lab/TECFA-Unite-TECFA">
+                <i class="fab fa-2x fa-researchgate fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <a href="https://www.unige.ch/fapse/">
+            <img class="img-fluid" src="https://tecfa.unige.ch/assets-global/logos/fapse_white_logo.svg" />
+          </a>
         </div>
       </div>
-    </main>
-    <!-- END OF MAIN -->
+    </div>
+  </footer>
+  <!-- END OF FOOTER -->
 
-    <!-- FOOTER -->
-    <footer class="bg-dark text-white p-5 mt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h5 class="text-white text-uppercase">Nous contacter</h5>
-            <span class="text-white-50"
-              >40 bd du Pont d'Arve<br />1211 Genève 4<br />T. +41 (0)22 379 93
-              20</span
-            ><br />
-            <a
-              class=""
-              href="https://www.unige.ch/presse/plans/uni-mail-uni-pignon/"
-              >Plan d'accès</a
-            >
-          </div>
-          <div class="col-sm">
-            <h5 class="text-white text-uppercase">Liens</h5>
-            <a class="" href="http://tecfalms.unige.ch/moodle/">Moodle TECFA</a
-            ><br />
-            <a class="" href="http://edutechwiki.unige.ch/fr/Accueil"
-              >EduTechWiki</a
-            ><br />
-            <a class="" href="http://tecfa.unige.ch/intranet">Intranet</a>
-          </div>
-          <div class="col-sm">
-            <h5 class="text-white text-uppercase">Médias sociaux</h5>
-            <ul class="list-unstyled list-inline media-links">
-              <li class="list-inline-item">
-                <a href="https://www.twitter.com/tecfa">
-                  <i class="fab fa-2x fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.researchgate.net/lab/TECFA-Unite-TECFA">
-                  <i class="fab fa-2x fa-researchgate fa-fw"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm">
-            <a href="https://www.unige.ch/fapse/">
-              <img
-                class="img-fluid"
-                src="/assets/images/fapse-logo-white.svg"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- END OF FOOTER -->
+  <!-- REQUIRED JS FILES -->
+  <script src="https://tecfa.unige.ch/assets-global/js/jquery.slim.min.js"></script>
+  <script src="https://tecfa.unige.ch/assets-global/js/popper.min.js"></script>
+  <script src="https://tecfa.unige.ch/assets-global/js/bootstrap.min.js"></script>
+  <script src="/assets-site/js/app.js"></script>
+  <!-- END OF REQUIRED JS FILES -->
+</body>
 
-    <!-- REQUIRED JS FILES -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="/assets/js/app.js"></script>
-    <!-- END OF REQUIRED JS FILES -->
-  </body>
 </html>
